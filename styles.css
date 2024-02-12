@@ -1,0 +1,61 @@
+
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #550343;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+/* ------ details ------->*/
+
+.current-bookings{
+    border: 3px solid rgb(181, 12, 164);
+    background-color: rgb(244, 157, 211);
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    padding: 1rem;
+    border: 3px solid rgb(181, 12, 164);
+    background-color: rgb(244, 157, 211);
+    margin-top: 50px;
+}
+
+.orders {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+body {
+    background-color: rgb(246, 198, 224);
+}
