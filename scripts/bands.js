@@ -37,22 +37,18 @@ document.addEventListener(
                             venueString = currentVenues.join(' and ')
                         }
                     }
-                  
                 }
             }
             for (const member of getBandMembers()) {
                 if (bandItemClicked.dataset.id == member.bandId) {
                     currentBandMembers.push(member)
-
                 }
             }
             for (const currentMember of currentBandMembers) {
                 memberHtml += ` ${currentMember.firstName} ${currentMember.lastName} ( ${currentMember.instrument} )`
             }
             window.alert(`${memberHtml} \n Watch ${bandItemClicked.dataset.name} perform at ${venueString}`)
-        }
-        
-        
+        }  
     }
 )
 
